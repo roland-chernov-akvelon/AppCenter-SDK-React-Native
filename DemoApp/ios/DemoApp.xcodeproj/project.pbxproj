@@ -774,7 +774,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 5Z97G9NZQ6;
+						DevelopmentTeam = X8VQ63BZN8;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Push = {
@@ -1345,9 +1345,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DemoApp/DemoApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
+				DEVELOPMENT_TEAM = X8VQ63BZN8;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
@@ -1365,10 +1367,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.appcenter.reactnative.demoapp;
+				PRODUCT_BUNDLE_IDENTIFIER = black.roland.appcenter.sasquatchswift;
 				PRODUCT_NAME = DemoApp;
 				PROVISIONING_PROFILE = "98420b5f-72f9-42f1-b250-1b94e3ee8aa6";
-				PROVISIONING_PROFILE_SPECIFIER = "AppCenter SDK React Native DemoApp Debug";
+				PROVISIONING_PROFILE_SPECIFIER = black.roland.appcenter.sasquatchswift;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1380,8 +1382,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DemoApp/DemoApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
+				DEVELOPMENT_TEAM = X8VQ63BZN8;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
@@ -1399,10 +1402,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.appcenter.reactnative.demoapp;
+				PRODUCT_BUNDLE_IDENTIFIER = black.roland.appcenter.sasquatchswift;
 				PRODUCT_NAME = DemoApp;
 				PROVISIONING_PROFILE = "e7cf4f08-8dba-4e3a-a905-01c6c1d6d2f1";
-				PROVISIONING_PROFILE_SPECIFIER = "AppCenter SDK React Native DemoApp Release";
+				PROVISIONING_PROFILE_SPECIFIER = black.roland.appcenter.sasquatchswift;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
